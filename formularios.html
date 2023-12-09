@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+    <h1><b>Trabalhando com tags para formulários</b></h1>
+    <hr>
+    <p>Elementos para formulãrios são voltados á interação com o úsuario.Entrada de dados,seleção de
+        opções,processamento para manipulação de dados etc.</p>
+    <P>Formulários no HTML são somente uma <b>INTERFACE.</b></P>
+    <P>Para que o formuário funcione,é necessário combiná-lo com alguma <b>linguagem de programação.</b></P>
+    <hr>
+    <h2><b>EXEMPLOS</b></h2>
+    <form action="#" method="post">
+        <p>
+            <label for="Nome"> Nome: </label>
+            <input required type="text" id="" name="Nome">
+        </p>
+        <p>
+            <label for="Nome"> Email: </label>
+            <input required type="email" id="" name="email">
+        </p>
+        <p>
+            <label for="phone">Phone: </label>
+            <input required type="Phone" id="" name="phone">
+        </p>
+        <p>
+            <label for="dataNasc"> Data de nascimento: </label>
+            <input required type="date" id="dataNasc" name="Nome">
+        </p>
+        <p><b>Sexo</b>:</p>
+        <p>
+            <input type="radio" id="Feminino" name="sexo">
+            <label>Feminino</label>
+
+            <input type="radio" id="Masculino" name="sexo">
+            <label>Masculino</label>
+
+
+
+        </p>
+        <p>Interesses:</p>
+        <p>
+
+            <input type="checkbox" id="html5" name="interesses">
+            <label for="html"> HTML</label>
+
+            <input type="checkbox" id="CSS3" name="interesses">
+            <label for="CSS3"> CSS3</label>
+
+            <input type="checkbox" id="javascript" name="interesses">
+            <label for="javascript"> javascript</label>
+
+        </p>
+        <p>
+            <label for="cor"> Qual a cor preferida?</label>
+            <input type="color" id="cor" name="cor">
+        </p>
+        <p>
+            <label for="idade"> Qual a sua idade?</label>
+            <input type="number" id="idade" name="idade">
+        </p>
+        <p>
+            <label for="assunto"> Assunto:</label>
+            <select name="color" id="assunto">
+                <option value="">Elogios</option>
+                <option value="">Reclamações</option>
+                <option value="">Sugestões</option>
+            </select>
+
+        </p>
+
+        <p>
+            <label for="mensagens">Mensagens</label>
+            <textarea name="mensagens" id="mensagens" cols="20" rows="5"></textarea>
+        </p>
+        <button>Enviar</button>
+
+
+
+
+
+
+
+</body>
+
+</html>
