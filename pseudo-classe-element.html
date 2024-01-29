@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>pseudo-class</title>
+        <style>
+        a{
+            text-decoration: none;
+            background-color: cadetblue;
+            color: aliceblue;
+            padding: 10px;
+            text-transform: uppercase;
+            border-radius: 15px;
+            font-family: cursive;
+            margin: 30px;
+
+        }
+        /* link a ser clicando*/
+        a:link{
+          color: chocolate;
+          /*Comportamento do link depois de clicado*/
+          
+             
+        }
+        a:visited{
+            color: red;
+            background-color: yellow;
+        }
+        /* Comportamento ao passar o mouse */
+        a:hover{
+            background-color: black;
+            color: blue;
+
+        }
+        /* Comportamento de link ativo(clicar ao segurar) */
+        a:active{
+            background-color: brown;
+            color: yellow;
+        }
+        
+            
+        
+        
+        </style>
+    </head>
+    <body>
+        <h1>Trabalhando com Pseudo-class</h1>
+        <hr>
+        <p>São usados para definir um elemento com um estado espacial</p>
+        <p>Serve para</p>
+        <ul>
+            <li>Estilizar um elemento quando um usuario passa o mause sobre ele.</li>
+            <li>Etilizar o link visitante e o não visitante de forma diferente</li>
+            <li>Estilizar um elemento quando ele recebe o foco.</li>
+        </ul>
+        <p id="botao"><a href="#">Pseudo-class</a></p>
+
+
+
+        </ul>
+
+
+
+
+
+
+    </body>
+    </html>
